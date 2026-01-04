@@ -43,12 +43,12 @@ Do finalnego obrazu trafia tylko to, co potrzebne do uruchomienia aplikacji.
 
 ## Jak uruchomić
 
-### Zbuduj obraz:
+### 1️⃣ Zbuduj obraz:
 ```shell
   docker build -t docker-lab-3 .
 ```
 
-### Uruchom kontener:
+### 2️⃣ Uruchom kontener:
 ```shell
   docker run --rm docker-lab-3
 ```
